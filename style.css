@@ -1,0 +1,67 @@
+body{
+    background-color: azure;
+    font-family: sans-serif;
+}
+
+form{
+    /*tamanho da horizontal*/
+    width: 500px;
+    /*centralizar e reajustar automaticamente na pagina*/
+    margin: auto;
+    /*distância do topo da pagina ate a div*/
+    padding-top: 40px;
+
+}
+
+.subform{
+    /*cor do fundo*/
+    background-color: antiquewhite;
+    /*efeito 3d na borda*/
+    box-shadow: 1px 1px 5px white;
+    /*distanciamento da borda até o nício da borda*/
+    padding: 30px;
+    /*deixar a ponta redondinha*/
+    border-radius: 15px;
+}
+
+.informacoes{
+    /*centralizar textos*/
+    text-align: center;
+}
+
+.painel-de-controle{
+    /*cor do texto*/
+    color: brown;
+}
+
+.preenchimento{
+    /*distância de espaçamento*/
+    margin-bottom: 10px;
+}
+
+/*chamar apenas as labels desta classe...*/
+.preenchimento > label{
+    color:dimgray;
+}
+
+/*chamar apenas os inputs desta classe...*/
+.preenchimento > input{
+    /*Pular uma linha*/
+    display: block;
+    /*deixar a ponta redondinha*/
+    border-radius: 5px;
+    /*tamanho da horizontal*/
+    width: 100%;
+    /*tamanho vertical*/
+    height: 20px;
+    /*distanciamento da borda até o nício da borda*/
+    padding: 10px;
+}
+
+.preenchimento > button{
+    width: 100%;
+    background-image: linear-gradient(to right, red, blue);
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 15px;
+}
